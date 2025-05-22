@@ -12,6 +12,8 @@
     • Spring Security
     • Spring Data JPA
     • MySQL Driver
+
+
 Инструкция по запуску проекта IntelliJ IDEA (Linux):
 1. Создать базу данных используя скрипт структуры - файл base.sql 
 2. В файле application.properties:
@@ -20,10 +22,14 @@
    
    
 Структура базы данных:
+
 users:
+
 id, name, password, telegram_token, username, enabled, authorized, chat_id
 
+
 messages:
+
 id, created_at, text, user_id
 
 
