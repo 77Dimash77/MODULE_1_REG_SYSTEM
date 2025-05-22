@@ -25,7 +25,6 @@
 
 users:
 id, name, password, telegram_token, username, enabled, authorized, chat_id
-
 messages:
 id, created_at, text, user_id
 
